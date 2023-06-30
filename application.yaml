@@ -6,7 +6,7 @@ metadata:
 spec:
   project: prod
   source:
-    repoURL: http://gitlab.oggdossev.com/address-book/address-book-config
+    repoURL: https://github.com/ognyan-dossev/address-book-config
     targetRevision: HEAD
     path: prod
   destination: 
