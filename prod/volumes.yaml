@@ -1,0 +1,18 @@
+#
+# PersistentVolume
+#
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: address-book-pv
+  labels:
+    type: local
+spec:
+  storageClassName: hostpath
+  capacity:
+    storage: 20Gi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: /tmp
+  persistentVolumeReclaimPolicy: Retain
