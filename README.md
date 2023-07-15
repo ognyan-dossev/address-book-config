@@ -1,4 +1,5 @@
 # Readme
+ArgoCD Kubernetes automation of https://github.com/ognyan-dossev/address-book
 ## Kubernetes setup on WSL2
 ### Apply dashboard manifest and edit login permissions
 Add `- --enable-skip-login`
